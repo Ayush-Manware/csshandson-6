@@ -134,7 +134,7 @@ ol li{
 }
 
 .index-2-container{
-    width: 200px;
+    width: 250px;
     margin:auto;
 }
 
@@ -213,7 +213,7 @@ ol li{
 .button:hover{
     background: white;
     color: rgb(31, 31, 31);
-    border: none;
+    border-color: white;
 }
 
 .btn-container{
@@ -244,7 +244,7 @@ h2{
 .button1:hover{
     background: white;
     color: rgb(31, 31, 31);
-    border: none;
+    border-color: white;
 }
 
 
