@@ -1,8 +1,273 @@
+body{
+    background: yellow;
+}
+
+/* page-1 */
+
+ol{
+    margin-inline: auto;
+}
+
+ol li{
+    width: 500px;
+    margin: 5px auto;
+}
+
+.index-1-container{
+    margin: 0px auto;
+}
+
+.divs{
+    width: 80px; 
+    display: inline-block;
+    height: 80px;
+    margin: 25px 20px;
+}
+
+.skew{
+    background: rgb(95, 95, 154);
+    animation-name: skew;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skew{
+    0%{transform: skew(-20deg);}
+    50%{transform: skew(20deg);}
+    100%{transform: skew(-20deg);}
+}
+
+.skew2{
+    background: gray;
+    animation: skew2 infinite 5s ease;
+}
+
+@keyframes skew2{
+    0%{
+        transform: skewy(-20deg);
+    }
+    50%{
+        transform: skewy(20deg);
+    }
+    100%{
+        transform: skewy(-20deg);
+    }
+}
+
+.rotate{
+    background-color: rgb(87, 87, 163);
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.scaley{
+    background:rgb(87, 87, 163);
+    animation: scaley infinite 3s ease;
+}
+
+@keyframes scaley{
+    0%{
+        transform: scaley(0.5);
+    }
+    50%{
+        transform: scaley(1);
+    }
+    100%{
+        transform: scaley(0.5);
+    }
+}
+
+.scalex{
+    background: brown;
+    animation: scalex infinite 3s linear;
+}
+
+@keyframes scalex{
+    0%{
+        transform: scalex(0.5);
+    }
+    50%{
+        transform: scalex(1);
+    }
+    100%{
+        transform: scalex(0.5);
+    }
+}
+
+.rotate2{
+    background: green;
+    animation: rotate2 infinite 3s ease;
+}
+
+@keyframes rotate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: scalex(0deg);
+    }
+}
+
+/*page-2  */
+
+.index-2-divs{
+    width: 100px; 
+    height: 100px;
+    margin: 15px 20px;
+}
+
+.index-2-container{
+    width: 200px;
+    margin:auto;
+}
+
+.transition-div1{
+    background: green;
+    transition: ease 2s;
+}
+
+.transition-div1:hover{
+    width: 250px;
+}
+
+.transition-div2{
+    background: green;
+    transition: ease-in 2s;
+}
+
+.transition-div2:hover{
+    width: 300px;
+    height: 250px;
+}
+
+.transition-div3{
+    background: green;
+    transition: ease-in-out 2s;
+}
+
+.transition-div3:hover{
+    width: 300px;
+}
+
+.transition-div4{
+    background: green;
+    transition: ease-out 0.5s;
+}
+
+.transition-div4:hover{
+    width: 300px;
+}
+
+.transition-div5{
+    background: green;
+    transition: linear 0.5s;
+}
+
+.transition-div5:hover{
+    width: 300px;
+}
+
+.transition-div6{
+    background: green;
+    transition: step-end 0.5s;
+}
+
+.transition-div6:hover{
+    width: 300px;
+}
+
+.transition-div7{
+    background: green;
+    transition: step-start 0.5s;
+}
+
+.transition-div7:hover{
+    width: 300px;
+}
+
+.button{
+    padding: 10px 30px;
+    border: 2px solid green;
+    background: green;
+    margin: 0px auto;
+    transition: all 0.2s linear;
+}
+
+.button:hover{
+    background: white;
+    color: rgb(31, 31, 31);
+    border: none;
+}
+
+.btn-container{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.button1{
+    padding: 10px;
+    /* width: 300px; */
+    border: 2px solid green;
+    background: green;
+    /* margin: 0px auto; */
+    transition: all 0.2s linear;
+    text-align: center;
+}
+
+.button1:hover{
+    background: white;
+    color: rgb(31, 31, 31);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page-3 */
 .container{
     position: relative;
-    border-right: 10px solid green;
-    border-left: 10px solid orange;
-    /* border-top: 10px solid white;   */
 }
 
 .sky{
